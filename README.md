@@ -1,30 +1,23 @@
-# project
+# Vue
 
-> A Vue.js project
+目录：
 
-## Build Setup
+     hungryApp:饿了么手机版
 
-``` bash
-# install dependencies
-npm install
+Vue安装：
 
-# serve with hot reload at localhost:8080
-npm run dev
+1、下载安装node		https://nodejs.org/en/download/
 
-# build for production with minification
-npm run build
+2、安装vue	npm install vue-cli -g //全局安装
 
-# build for production and view the bundle analyzer report
-npm run build --report
+3、在想要创建vue项目的目录下 按住shift+右键打开命令行
 
-# run unit tests
-npm run unit
+4、运行命令	vue init webpack
 
-# run e2e tests
-npm run e2e
+5、npm install （是在项目目录下）
 
-# run all tests
-npm test
-```
+Vue运行：
+   npm run dev
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+vue打包：
+   npm run build
